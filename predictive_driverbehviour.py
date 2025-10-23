@@ -182,7 +182,7 @@ def plot_results(session, actual_vals, pred_vals):
     plt.grid(True)
     plt.show()
 
-# Training Loop (Modified to include plotting)
+# Training Loop 
 num_epochs = 1
 
 for epoch in range(num_epochs):
